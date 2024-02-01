@@ -38,7 +38,7 @@ public class CastingPractice1 {
 
 		System.out.println( "'" + ch + "'" ); // 'A'
 		System.out.println( (short)ch ); // 65
-		System.out.println( (short)ch + iNum1 ); // 75
+		System.out.println( ch + iNum1 ); // 75
 		System.out.println( "'" + (char)(ch + iNum1) + "'" ); // 'K'
 		
 		
