@@ -10,7 +10,7 @@ public class brenchRun {
 		//brenchEx.ex2();
 		//brenchEx.ex3();
 		//brenchEx.ex4();
-		brenchEx.RSPGame();
+		//brenchEx.RSPGame();
 	}
 	
 }
