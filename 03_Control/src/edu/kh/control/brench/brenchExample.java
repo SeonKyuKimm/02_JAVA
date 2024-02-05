@@ -102,24 +102,6 @@ public class brenchExample {
 	
 	public void RSPGame() {
 		
-		// 가위바위보 게임
-		// 몇 판 할건지 입력받음
-		// 입력받은 판 수 만큼 게임 반복
-		// 상대는 컴퓨터 : Math.random() : 0 ~ 1미만의 난수
-		// 1) 1~3 사이의 난수 ** Math.floor(Math.random() * 3); => double 형이라 int형으로**
-		// int random = (int)Math.random() *3 + 1;
-		// 2) 1이면 가위 , 2이면 바위, 3이면 보 지정(switch)
-		// 3) 컴퓨터와 플레이어 가위바위보 판별
-		// 플레이어 승! / 졌습니다 ㅠㅠ
-		// 모든 판 수가 끝나면
-		// 매 판마다 - 현재 기록 : 2승 1무 0패
-		
-		//int random = (int)(Math.random() *3 +1 );
-		// 0.0 <= x <1.0
-		// 0.0 <= x * 3 < 3.0
-		// 1,0 <= x * 3 + 1 < 4.0
-		// 1 <= (int)(x * 3 + 1) < 4
-		// => 1 이상 4 미만 정수 -> 1 2 3
 		
 		Scanner sc = new Scanner(System.in);
 		
@@ -150,7 +132,7 @@ public class brenchExample {
 			case 3 : com = " 보 "; break;
 			}
 			
-			// 컴퓨터는 [com]를 선택했습니다.
+			// 컴퓨터는 [case : com]를 선택했습니다.
 			System.out.printf("컴퓨터는 [%s]를 선택했습니다.\n",com);
 			
 			// 컴퓨터와 플레이어 가위바위보 판별
