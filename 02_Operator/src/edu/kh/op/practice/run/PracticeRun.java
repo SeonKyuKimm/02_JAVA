@@ -14,7 +14,7 @@ public class PracticeRun {
 		
 		OperatorPractice2 op2 = new OperatorPractice2();
 		
-		op2.ex();
+		//op2.ex();
 				
 	}
 }

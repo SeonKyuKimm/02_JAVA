@@ -60,7 +60,7 @@ public class OpExample {// 예제코드 "작성용 클래스." 기능작성용
 		System.out.println( (a == b) == false ); // true
 							// () 괄호 안에 있는것 먼저 연산
 							// false == false -> true
-		
+		System.out.println();
 		int c = 4;
 		int d = 5;
 		
@@ -105,8 +105,8 @@ public class OpExample {// 예제코드 "작성용 클래스." 기능작성용
 		// num이 30보다 크면 (초과) "num은 30보다 큰 수이다"
 		// 아니면 "num은 30 이하의 수이다" 출력
 		
-		String result = num > 30 ? "num은 30보다 큰 수이다" : "num은 30 이하의 수이다";
-		
+		//String result = num > 30 ? "num은 30보다 큰 수이다" : "num은 30 이하의 수이다";
+		String result = num > 30 ? "num은 30보다 큰 수이다" : "num은 30이하의 수이다";
 		System.out.println(result);
 		
 		// System.out.println( (num > 30) ? ("num은 30보다 큰 수이다") : ("num은 30 이하의 수이다") );
