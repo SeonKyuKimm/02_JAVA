@@ -19,8 +19,8 @@ public class AccountRun {
 		//
 		acc.deposit(50000);
 
-		acc.withdraw("1234", 2000); // 비밀번호 불일치가 뜸
-		acc.withdraw("7890", 20000000); // 잔액부족
+		//acc.withdraw("1234", 2000); // 비밀번호 불일치가 뜸
+		//acc.withdraw("7890", 20000000); // 잔액부족
 		acc.withdraw("7890", 1000); // 비밀번호 일치, 
 		
 		System.out.println("=====================");

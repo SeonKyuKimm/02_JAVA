@@ -9,6 +9,8 @@ public class Run2 {
 		
 		//lP.practice1();
 		//lP.practice2();
-		lP.practice3();
+		//lP.practice3();
+		//lP.practice4();
 	}
 }
+ 

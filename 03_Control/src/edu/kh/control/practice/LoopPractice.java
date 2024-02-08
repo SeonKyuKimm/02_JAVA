@@ -36,7 +36,7 @@ public class LoopPractice {
 			System.out.println(" 1 이상의 숫자를 입력하세요.");
 		}
 	}
-	
+	////////////////////////////////////////////////////////
 	public void practice3() {
 		
 		Scanner sc = new Scanner(System.in);
@@ -46,7 +46,7 @@ public class LoopPractice {
 		
 		int sum = 0;
 		
-		for(int i = 1; i <= input3-1 ; i++) {
+		for(int i = 1; i <= input3 -1 ; i++) {
 			
 			sum += i;
 			System.out.print( i + " + " );
@@ -54,5 +54,24 @@ public class LoopPractice {
 		sum += input3;
 		System.out.print(input3 + " = " + sum);
 	}
-}
 
+
+	
+	public void practice4() {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.print("첫 번째 숫자 : ");
+		int input1 = sc.nextInt();
+		
+		System.out.print("두 번째 숫자 : ");
+		int input2 = sc.nextInt();
+		
+		
+	 
+		
+	}
+
+
+
+}

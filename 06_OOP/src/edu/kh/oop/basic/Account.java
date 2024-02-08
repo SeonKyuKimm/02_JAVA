@@ -50,7 +50,8 @@ public class Account {
 		System.out.println("name + 의 현재 잔액 : " + balance);
 	}
 	
-	// ->withdraw(pw, amount) : 출금. 비밀번호와 출금할 액을 전달받아와, 조건에 맞으면 잔액에서 차감 후 현재 잔액 출력
+	// ->withdraw(pw, amount) : 출금. 비밀번호와 출금할 액을 전달받아와, 
+	// 조건에 맞으면 잔액에서 차감 후 현재 잔액 출력
 	//	1) 비밀번호와 일치하지 않으면 " 비밀번호 불일치 "
 	//	2) 출금할 금액이 잔액보다 크면 " 잔액 부족 " 출력
 	

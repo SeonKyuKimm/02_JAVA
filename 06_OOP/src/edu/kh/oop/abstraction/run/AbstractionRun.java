@@ -12,6 +12,8 @@ public class AbstractionRun {
 		// 그 객체에서 ex1()호출
 		AS.ex1();
 		
+		
+		
 	}
 	
 }
