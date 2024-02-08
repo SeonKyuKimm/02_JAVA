@@ -21,8 +21,10 @@ public class Practice3 {
 		System.out.print("수학 : ");
 		double input3 = sc.nextDouble();
 		
-		System.out.printf("총점 : %d\n", (int)(input1 + input2 + input3));
-		System.out.printf("평균 : %d\n", (int)(input1 + input2 + input3)/3);
+		System.out.printf("총점 : %d\n", (int)(input1 + input2 + input3) );
+		System.out.printf("평균 : %d\n", (int)(input1 + input2 + input3) / 3);
+		
+		//
 	 
 	}
 
@@ -51,10 +53,11 @@ public class Practice3 {
 		
 		System.out.print("정수입력 : ");
 		int input1 = sc.nextInt();
+		
 		System.out.println(input1);
 				
 		sc.nextLine();
-		// 입력버퍼에 남은 개행문자 제거
+		// 입력버퍼에 남은 개행문자 제거 (\n)
 		System.out.print("문자열 입력: ");
 		String input2 = sc.nextLine();
 		System.out.println(input2);

@@ -15,7 +15,6 @@ public class VairbaleExample4 {
 		 *   
 		 *   ex)double temp  = 3.14;
 		 *   	int num = (int)temp;
-		 *   
 		 *  
 		 * */
 		
