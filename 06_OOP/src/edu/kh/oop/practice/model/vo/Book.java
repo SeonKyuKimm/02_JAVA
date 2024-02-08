@@ -52,7 +52,7 @@ public class Book {
 
 	// 기본생성자
 	public Book() {
-		System.out.print("numm");
+		System.out.println("null /" );
 		
 		title = "자바의 정석";
 		price = 30000;
@@ -67,8 +67,7 @@ public class Book {
 	
 	@Override
 	public String toString() {
-		return "Book [title=" + title + ", price=" + price + ", discountRate=" + discountRate + ", author="
-				+ author + "]";
+		return title + "/" + price + "/" + discountRate + "/" + author;
 	}
 	
 	
