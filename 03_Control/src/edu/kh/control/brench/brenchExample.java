@@ -50,8 +50,8 @@ public class brenchExample {
 			
 		}
 		
-		System.out.println("=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=_=");
-		System.out.println(str);
+		System.out.println("=========================");
+		System.out.print(str);
 	}
 	
 	public void ex3() {

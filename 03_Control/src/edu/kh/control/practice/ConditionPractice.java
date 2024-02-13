@@ -18,9 +18,9 @@ public class ConditionPractice {
 			result = "양수만 입력해주세요.";
 		}else {
 			if( input1 % 2 == 1) {
-				result = "짝수입니다.";
-			}else {
 				result = "홀수입니다.";
+			}else {
+				result = "짝수입니다.";
 			}
 		}
 		System.out.print(result);

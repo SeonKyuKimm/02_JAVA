@@ -1,7 +1,8 @@
 package edu.kh.oop.practice.model.vo;
 
 public class Book {
-
+	
+	// 필드
 	private String title; // 도서명
 	private int price; //가격
 	private double discountRate; //할인율
@@ -48,12 +49,18 @@ public class Book {
 	}
 
 	public Book() {
+<<<<<<< HEAD
 		System.out.println(this.toString());
 		
 		
+=======
+		
+		System.out.println( this.toString() );
+>>>>>>> b2ac8ebda6505f7ade2a55aad23bb71e1252aaee
 	}
 	// 매개변수 생성자?
 	
+	// 매개변수 생성자
 	public Book(String title, int price,
 			double discountRate, String author) {
 		
@@ -61,7 +68,11 @@ public class Book {
 		this.price = price;
 		this.discountRate = discountRate;
 		this.author = author;
+<<<<<<< HEAD
 		System.out.println(this.toString());
+=======
+		System.out.println(this.toString() );
+>>>>>>> b2ac8ebda6505f7ade2a55aad23bb71e1252aaee
 	}
 	@Override
 	public String toString() {

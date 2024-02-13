@@ -10,10 +10,7 @@ public class VariableExample2 {
 		 * 정수형 : byte(1byte) short(2byte) int(4byte) long(8byte)
 		 * 실수형 : float(4byte), double(8byte)
 		 * 문자형 : char(2byte, 유니코드)
-		 *
-		 * 
-		 * 
-		 * */
+		 */
 		
 		// 변수 선언 : 메모리에 값을 저장할 공간을 할당하는 것.
 		// 변수 값 대입 : 변수에 값을 집어 넣는 것.

@@ -22,7 +22,7 @@ public class forExample {
 	 * 			  for문이 끝날 때 마다 증가 또는 감소시켜서
 	 * 			  조건식의 결과를 변하게 하는 식 
 	 * 
-	 * */
+	 */
 	
 	public void ex1() {
 		

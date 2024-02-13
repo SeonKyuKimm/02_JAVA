@@ -5,11 +5,7 @@ import java.util.Arrays;
 public class PracticeService {
 
 	public void practice1() {
-		
-		
-		
-		
-		
+				
 		int[] arr = new int[9];
 		
 		int sum = 0;		//0 2 4 6 8 , 1 3 5 7 9
