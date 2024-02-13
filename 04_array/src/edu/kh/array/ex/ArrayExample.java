@@ -161,6 +161,7 @@ public class ArrayExample {
 		Scanner sc = new Scanner(System.in);
 			
 		
+		
 		System.out.print("입력 받을 인원 수 : ");
 		int input = sc.nextInt();
 		

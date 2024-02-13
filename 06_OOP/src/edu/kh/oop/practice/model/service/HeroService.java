@@ -1,4 +1,4 @@
-package edu.kh.oop.practice.model.service;
+	package edu.kh.oop.practice.model.service;
 
 import edu.kh.oop.practice.model.vo.Hero;
 
@@ -45,19 +45,11 @@ public class HeroService {
 		
 		hero.attack(100);
 		hero.attack(100);
-		hero.attack(100);
-		hero.attack(100);
-		hero.attack(100);
-		hero.attack(100);
-		hero.attack(100);
-		hero.attack(100);
 
 		System.out.println("======================");
 		
 		hero1.attack(500);
-		hero1.attack(500);
-		hero1.attack(500);
-		hero1.attack(500);
+		
 		hero1.magicJump();
 		
 		

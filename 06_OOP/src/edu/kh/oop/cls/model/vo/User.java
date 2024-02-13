@@ -74,9 +74,7 @@ public class User {
 		this.userName = userName;
 		this.userAge = userAge;
 		this.userGender = userGender;
-		
-		
-		
+	
 	}
 	
 	// JAVA는 기본적으로 필드명, 생성자명, 메서드명, 변수명의
