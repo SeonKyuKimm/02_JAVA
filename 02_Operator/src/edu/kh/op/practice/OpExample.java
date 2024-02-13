@@ -14,7 +14,7 @@ public class OpExample {// 예제코드 "작성용 클래스." 기능작성용
 		//증감 *증가,감소 연산자. 
 		//연산자
 		iNum1++;  // iNUm1 = 1증가
-		iNum2--; // iNum2 = 2 증가
+		iNum2--; // iNum2 = 1 감소
 	
 		System.out.println( "iNum1 : " + iNum1);
 		System.out.println( "iNum2 : " + iNum2);
@@ -28,7 +28,7 @@ public class OpExample {// 예제코드 "작성용 클래스." 기능작성용
 		
 		//후위연산
 		int temp2 = 3;
-		System.out.println( temp2-- + 2); //5
+		System.out.println( temp2-- + 2); 
 		
 		System.out.println("temp2 : " + temp2);
 		
@@ -44,7 +44,7 @@ public class OpExample {// 예제코드 "작성용 클래스." 기능작성용
 		//		3++ ==> 4
 		
 		//최종적으로 a,b,c 는 각각 얼마?
-		System.out.printf("%d / %d / %d\n", a, b, c ); //a /b /c
+		System.out.printf("%d / %d / %d\n", a, b, c); //a /b /c
 						  //4 / 4 /  7
 	}
 
