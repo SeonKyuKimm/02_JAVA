@@ -17,8 +17,7 @@ public class ConditionExample { // 기능 제공용 클래스
 		 * 		조건식이 'true' 일 때 수행할 코드
 		 * }
 		 * 
-		 * 
-		 * */
+		 */
 		
 		// 입력받은 정수가 양수인지 검사
 		// 양수라면 "양수입니다"
@@ -48,8 +47,6 @@ public class ConditionExample { // 기능 제공용 클래스
 		 ** } else {
 		 *		조건식이 false일 때 수행되는 코드
 		 * }
-		 * 
-		 * 
 		 * */
 		
 		

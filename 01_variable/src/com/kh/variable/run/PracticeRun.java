@@ -4,7 +4,7 @@ import com.kh.vairable.practice2.Practice1;
 import com.kh.vairable.practice2.Practice2;
 import com.kh.vairable.practice2.Practice3;
 
-// import 는 스캐너를 만들어 둔 곳에서 불러와 얼마든 다시 생성이 가능하고
+// import 는 스캐너를 만들어 둔 곳에서 불러와 얼마든 다시 생성이 가능
 public class PracticeRun {
 	
 	

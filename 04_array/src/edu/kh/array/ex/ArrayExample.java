@@ -37,7 +37,7 @@ public class ArrayExample {
 		// ----------------------------------------------
 		
 		// _배열 선언
-		int[] arr;
+		int[] arr; 
 		//int arr[];
 		
 		// stack 영역에 int[] 자료형 공간을 4byte 할당하고
@@ -55,7 +55,7 @@ public class ArrayExample {
 				// ** 생성된 int[]에는 시작 주소가 지정된다!!
 		
 		
-		// arr = new int[3];
+		// arr = new int[3]; //int[] arr = new int[3];
 		// (int[])  (int[])   --> 같은 자료형 == 연산 가능.
 		
 		// Heap 영역에 생성된 int[]의 시작 주소를 
@@ -66,19 +66,28 @@ public class ArrayExample {
 		
 		System.out.println("arr의 주소값? : " + arr);
 		
-		// 배열 요소 값 대입ㅂ
+		// 배열 요소 값 대입
 		// arr 은 int[] 참조형 변수 이지만
 		// arr[0] arr[1] arr[2] 은 int, 자료형 변수이기 때문에 정수값을 대입할 수 있다!
 		arr[0] = 10;
 		arr[1] = 50;
 		arr[2] = 1000;
 		
+		/*
+		 * int[] arr = new int[]3;
+		 * 
+		 * System.out.println("arr의 주소값? : " + arr);
+		 * 
+		 * arr[0] = 100;
+		 * arr[1] = 200;
+		 * arr[2] = 300;
+		 * 
+		 * */
 		
 		// 배열 요소 값 읽어오기
 		System.out.println( arr[0]);
 		System.out.println( arr[1]);
 		System.out.println( arr[2]);
-		
 		
 	}
 
@@ -103,7 +112,7 @@ public class ArrayExample {
 	
 	public void ex3() {
 
-			// 5 명의 키를 입력받고, 평균 구하기
+			// 5 명의 키를 '입력'받고, 평균 구하기
 
 			// 1번 키 입력 : 170.5
 			// 2번 키 입력 : 165.7
@@ -122,6 +131,7 @@ public class ArrayExample {
 			// height 에 heap 영역에 새로 생성된 double 자료형 5칸짜리 double[]의 시작주소 대입
 			
 			for(int i = 0; i < height.length; i++) {
+				
 				System.out.print( (i) + "번 키 입력 : ");
 				height[i] =sc.nextDouble();
 				

@@ -8,9 +8,7 @@ public class Array2Example {
 	 * 
 	 * - 자료형이 같은 1차원 배열을 묶음으로 다루는 것
 	 * -> 행, 열 개념 추가
-	 * 
-	 * 
-	 * */
+	 */
 		
 	public void ex1() {
 		
