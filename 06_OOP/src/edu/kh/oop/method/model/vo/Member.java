@@ -14,7 +14,9 @@ public class Member { // 속성 + 기능
 	// 기본생성자
 	// 생성자 규칙 : 반환형이 없고, 클래스명과 이름이 같아야함
 	// ctrl + space > 제일 첫번째꺼 enter
-	public Member() {}
+	public Member() {
+		
+	}
 
 	
 	// 매개변수 생성자 (필드 모두 초기화)

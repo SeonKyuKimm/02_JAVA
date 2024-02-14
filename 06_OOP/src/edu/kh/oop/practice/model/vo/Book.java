@@ -51,7 +51,13 @@ public class Book {
 	public Book() {
 
 		System.out.println(this.toString());
-			
+
+		
+
+		
+		
+
+
 	}
 	// 매개변수 생성자?
 	
@@ -63,10 +69,16 @@ public class Book {
 		this.price = price;
 		this.discountRate = discountRate;
 		this.author = author;
+
  
 		System.out.println(this.toString());
  
 		 
+
+
+		System.out.println(this.toString() );
+
+
 	}
 	@Override
 	public String toString() {
