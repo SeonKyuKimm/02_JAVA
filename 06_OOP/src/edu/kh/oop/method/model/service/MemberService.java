@@ -185,7 +185,7 @@ public class MemberService {
 		
 		String str = "이름 : "+ loginMember.getMemberName();
 		str += "\n아이디 : "  + loginMember.getMemberId();
-		str += "\n나이 : " + loginMember.getMemberAge() + "세";
+		str += "\n나이 : " + loginMember.getMemberAge();
 		
 		return str;
 	

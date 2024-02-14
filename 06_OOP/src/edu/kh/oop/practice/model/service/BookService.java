@@ -7,7 +7,7 @@ public class BookService {
 	public void practice() {
 		
 		// 객체 생성
-<<<<<<< HEAD
+
 		Book book = new Book(); //null / 0 / 0.0 / null
 		Book book1 = new Book("자바의정석", 30000, 0.2 ,"남궁성");
 		//System.out.println( book1.toString());
@@ -32,28 +32,7 @@ public class BookService {
 		System.out.println( "할인된 가격 = " + (int)(book.getPrice()- book.getPrice() * book.getDiscountRate() ) );
 		System.out.println( "도서명 = " + book1.getTitle());
 		System.out.println( "할인된 가격 = " + (int)(book1.getPrice() - book1.getPrice() * book1.getDiscountRate() ) );
-=======
-		Book book = new Book();
-		Book book1 = new Book("자바의 정석", 30000,  0.2, "남궁성");
-		
-		System.out.println("=============================");
-		
-		
-		book.setTitle("C 언어");
-		book.setPrice(30000);
-		book.setDiscountRate(0.1);
-		book.setAuthor("홍길동");
-		System.out.println("수정된 결과 확인");
-		System.out.println( book.toString() );
-				
-		System.out.println("=============================");
-		
-		System.out.println("도서명 = " + book.getTitle() );
-		System.out.println("할인된 가격 = " + (int)(book.getPrice() - (book.getPrice() * book.getDiscountRate())));
-		System.out.println("도서명 = " + book1.getTitle() );
-		System.out.println("할인된 가격 = " + + (int)(book.getPrice() - (book1.getPrice() * book1.getDiscountRate())));
->>>>>>> b2ac8ebda6505f7ade2a55aad23bb71e1252aaee
-		
+			
 	}
 
 }
