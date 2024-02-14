@@ -21,6 +21,6 @@ public class MemberRun {
 		
 		* 먄약에 생성자가 하나라도 있으면 자동생성 안해줌
 		*/
-		//service.displayMenu();
+		service.displayMenu();
 	}
 }
