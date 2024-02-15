@@ -38,7 +38,7 @@ public class SmartPhone extends Phone {
 	public void printInfo() {
 		
 		super.printInfo();
-		System.out.println("Oerating System : " + operatingSystem);
+		System.out.println("Operating System : " + operatingSystem);
 		System.out.println("Storage Capacity : " + storageCapacity + "GB") ;
 	}
 	
