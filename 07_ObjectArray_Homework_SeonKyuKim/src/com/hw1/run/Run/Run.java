@@ -18,6 +18,7 @@ public class Run {
 		for(int i = 0; i < emp.length; i++) {
 			System.out.println("emp[" + i + "] : " + emp[i].information() );
 		}
+		
 		System.out.println("=================================================================");
 		
 		// 2) 3개의 객체 중 값이 없는 필드에 각각 값을 넣은 뒤 출력
@@ -38,7 +39,7 @@ public class Run {
 		emp[1].setBonusPoint(0.3);
 		
 		System.out.println("emp[0] : " + emp[0].information() );
-		System.out.println("emp[0] : " + emp[1].information() );
+		System.out.println("emp[1] : " + emp[1].information() );
 		System.out.println("=================================================================");
 		
 		//직원 각각의 보너스가 적용된 1년 연봉을 계산하여 출력

@@ -8,6 +8,6 @@ public class MemberRun {
 		
 		MemberService mService = new MemberService();
 	
-		//mService.displayMenu();
+		mService.displayMenu();
 	}
 }
