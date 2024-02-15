@@ -7,5 +7,9 @@ public class Run {
 	public static void main(String[] args) {
 		
 		EmployeeService eS = new EmployeeService();
+		
+		eS.disPlayMenu();
+	
+	
 	}
 }
