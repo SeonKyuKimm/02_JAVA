@@ -327,15 +327,15 @@ public class ArrayExample {
 		String[] arr = {"사과", "딸기", "바나나", "키위", "멜론", "아보카도"};
 	
 		Scanner sc = new Scanner(System.in);
+		
 		/*
-		 * 
 		 * 과일 입력 : 아보카도
 		 * 5번 인덱스에 존재
 		 * 
 		 * 과일입력 : 수박
 		 * 존재하지 않음
-		 * 
 		 */
+		
 		System.out.print("과일 입력 : ");
 		String input = sc.next();
 		
@@ -346,14 +346,9 @@ public class ArrayExample {
 			if(arr[a].equals(input) ) {
 				System.out.println(a + " 번째 인덱스에 존재");
 				flag = true;
-		}
-	
-			
-	}
-		
-	
+		}				
+	}			
 		if (!flag) {
-			
 			System.out.println("존재하지 않음");
 		}
 	}
@@ -413,7 +408,6 @@ public class ArrayExample {
 				// arr [i] 값과 검색할 문자 ch가 같은 경우
 				// 카운트 늘려라!
 			}
-			
 		}
 		
 		if (count > 0) {

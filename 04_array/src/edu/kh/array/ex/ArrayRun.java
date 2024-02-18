@@ -18,7 +18,7 @@ public class ArrayRun {
 		
 		ArrayExample2 arEx2 = new ArrayExample2();
 
-		//arEx2.shallowCopy();
+		arEx2.shallowCopy();
 		//arEx2.deepCopy();
 		//arEx2.createLottoNumber();
 	}
