@@ -31,7 +31,8 @@ public abstract class Person {
 	}
 	
 	public abstract String getInfo();
-	
+		// 추상메서드
+		// 객체 정보를 문자열로 반환한다
 	
 
 }
