@@ -12,7 +12,10 @@ public abstract class Person {
 		this.id = id;
 		this.name = name;
 	}
-
+	
+	public abstract String getInfo();
+			// 추상메서드
+			// 객체 정보를 문자열로 반환한다
 	// method
 	public String getId() {
 		return id;
@@ -30,9 +33,7 @@ public abstract class Person {
 		this.name = name;
 	}
 	
-	public abstract String getInfo();
-		// 추상메서드
-		// 객체 정보를 문자열로 반환한다
+	
 	
 
 }

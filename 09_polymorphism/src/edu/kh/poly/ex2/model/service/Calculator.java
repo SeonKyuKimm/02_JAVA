@@ -25,9 +25,5 @@ public interface Calculator {
 	public abstract int multiple(int num1, int num2);
 	
 	public abstract	int divine(int num1, int num2);
-	
-	
-	
-	
-	
+
 }

@@ -406,8 +406,8 @@ public class StudentService {
 			
 			if (std.getName().contains(input)){
 				
-
 				System.out.println(std);
+				find = true;
 			}
 						
 		}

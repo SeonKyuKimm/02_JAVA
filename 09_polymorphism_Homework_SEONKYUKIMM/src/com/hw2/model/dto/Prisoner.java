@@ -11,7 +11,7 @@ public class Prisoner extends Person {
 		this.crime = crime;
 	}
 	
-		public String getCrime() {
+	public String getCrime() {
 		return crime;
 	}
 
@@ -22,7 +22,8 @@ public class Prisoner extends Person {
 	@Override
 	public String getInfo() {
 		
-		return null;
+		return String.format("ID : %s, 이름 : %s, 죄목 : %s", 
+							id, name, crime);
 	}
 	
 	

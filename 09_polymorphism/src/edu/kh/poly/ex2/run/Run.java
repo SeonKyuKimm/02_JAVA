@@ -20,12 +20,12 @@ public class Run {
 	
 	// 객체 생성 코드
 	//Calculator cal= new KSGCalculator();
-	 Calculator cal = new HGDCalculator();
+	//Calculator cal = new HGDCalculator();
 	 
-	System.out.println( "합 : " + cal.plus(20, 30) );
-	System.out.println( "차 : " + cal.minus(20, 30) );
-	System.out.println( "곱 : " + cal.multiple(20, 30) );
-	System.out.println( "몫 : " + cal.divine(20, 30) );
+	//System.out.println( "합 : " + cal.plus(20, 30) );
+	//System.out.println( "차 : " + cal.minus(20, 30) );
+	//System.out.println( "곱 : " + cal.multiple(20, 30) );
+	//System.out.println( "몫 : " + cal.divine(20, 30) );
 	 
 	 
 	// 인터페이스 == 미완성 설계도 == 객체 생성 불가능
