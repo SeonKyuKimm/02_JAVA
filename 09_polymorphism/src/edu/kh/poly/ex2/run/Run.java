@@ -11,7 +11,7 @@ public class Run {
 		
 		AbstractService service = new AbstractService();
 		
-		//service.ex1();
+		service.ex1();
 		//service.ex2();
 		
 		// =========================================
