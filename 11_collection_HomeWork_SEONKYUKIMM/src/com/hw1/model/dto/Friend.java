@@ -16,7 +16,7 @@ public class Friend {
 	}
 
 	public void pickLeader() {
-		System.out.println( "가 떡잎방범대 대장이다!");
+		System.out.println( getName() + "가 떡잎방범대 대장이다!");
 	}
 	
 	
@@ -29,8 +29,6 @@ public class Friend {
 		this.name = name;
 	}
 
-	
-	
 	
 	
 	  
