@@ -4,6 +4,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.InputMismatchException;
+import java.util.Iterator;
 import java.util.Map;
 import java.util.Scanner;
 
@@ -17,7 +18,7 @@ public class ToyFactory {
 	private List<Toy> toyList = new ArrayList<Toy>();
 	private Map<Integer, String> meterial = new HashMap<Integer, String>();
 	
-	public void ToyFactory() {
+	public ToyFactory() {
 			
 		meterial.put(1, "면직물");
 		meterial.put(2, "플라스틱");
@@ -58,7 +59,7 @@ public class ToyFactory {
 				
 				case 1 : showToyAll(); break;
 				case 2 : addNewToy(); break;
-				case 3 : ; break;
+				case 3 : deleteToy(); break;
 				case 4 : ; break;
 				case 5 : ; break;
 				case 6 : ; break;
@@ -80,7 +81,7 @@ public class ToyFactory {
 	// 1. 전체 장난감 조회하기
 	public void showToyAll() {
 		
-		System.out.println("<<전체 장난감 목록>>");
+		System.out.println("<<전체 장난감 목록>>\n");
 		
 		for (Toy toy : toyList ) {
 			
@@ -111,9 +112,61 @@ public class ToyFactory {
 		sc.nextLine();
 				
 		
-		String matNum = ""; 
 		
+		 StringBuilder materialBuilder = new StringBuilder();
+		   
+		 while (true) {
+		 
+			 System.out.print("재료를 입력하세요 (종료하려면 'q'를 입력하세요) : ");
+		     
+			 String materialInput = sc.next();
+
+
+			 if (materialInput.equals("q")) {
+		     
+				 break;
+		        }
+
+		        
+			 if (materialBuilder.length() > 0) {
+		            materialBuilder.append(", ");
+		        }
+		        materialBuilder.append(materialInput);
+	 	}
+		
+		 String selectedMaterial = materialBuilder.toString();
+
+		 
+		 Toy newToy = new Toy(name, price, color, useAge, madeFrom, selectedMaterial);
+		 
+		 toyList.add(newToy);
+
+		 
+		 System.out.println("새로운 장난감이 추가되었습니다.");
 	}
 
+	public void deleteToy() {
+		
+		System.out.print("삭제할 장난감의 이름을 입력하세요 : ");
+		String name = sc.next();
+		
+		boolean remove = false;
+		
+		for( Iterator<Toy> iterator = toyList.iterator(); iterator.hasNext(); ) {
+			Toy toy = iterator.next();
+			if(toy.getName().equals(name) ) {
+				iterator.remove();
+				remove = true;
+			}
+			
+		}
+		
+		if(remove) {
+			System.out.println("장난감이 삭제되었습니다.");
+		}else {
+			System.out.println();
+		}
+		
+	}
 	
 }

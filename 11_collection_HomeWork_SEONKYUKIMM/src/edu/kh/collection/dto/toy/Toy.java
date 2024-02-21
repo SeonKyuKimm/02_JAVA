@@ -14,21 +14,18 @@ public class Toy {
 	private int useAge; //사용연령
 	private int madeFrom; // 제조년월일
 	private String material1; // 재료
-	
-	
 
-	public Toy(String name, int price,
-			   String color, int useAge,
-			   int madeFrom, String material1) {
-		
-		super();
-		this.name = name;
-		this.price = price;
-		this.color = color;
-		this.useAge = useAge;
-		this.madeFrom = madeFrom;
-		this.material1 = material1;
-		
+	
+	public Toy(String name, int price, 
+			   String color, int useAge, 
+			   int madeFrom, String material1){
+	    super();
+	    this.name = name;
+	    this.price = price;
+	    this.color = color;
+	    this.useAge = useAge;
+	    this.madeFrom = madeFrom;
+	    this.material1 = material1;
 	}
 
 
