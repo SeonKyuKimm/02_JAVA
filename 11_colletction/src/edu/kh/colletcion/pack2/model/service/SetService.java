@@ -322,7 +322,7 @@ public class SetService {
 	
 	
 	/**
-	 * gpt와 함께한 로또번호 생성기
+	 * ?? : .clear()
 	 */
 	public void lottoNumberGenerator2() {
        
@@ -337,20 +337,20 @@ public class SetService {
         
         int count = money / 1000; // 1000원당 1회
         
-        for (int i = 1; i <= count; i++) {
+        for ( int i = 1; i <= count; i++ ) {
            
         	System.out.print(i + "회: ");
         	
         	lottoNum.clear();
             
-            while (lottoNum.size() < 6) {
+            while ( lottoNum.size() < 6 ) {
                 lottoNum.add(random.nextInt(45) + 1); // 1부터 45까지의 난수 생성하여 Set에 추가
             }
             
             System.out.println(lottoNum);
         }
         
-         sc.close();   
+         sc.close();
 	}
 	
 	
