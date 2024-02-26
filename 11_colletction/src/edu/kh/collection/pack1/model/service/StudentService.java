@@ -10,10 +10,6 @@ import java.util.Scanner;
 
 import edu.kh.collection.pack1.model.vo.Student;
 
-
-
-
-
 public class StudentService {
 
 	// 필드
@@ -27,6 +23,7 @@ public class StudentService {
 	// java.util.ArrayList : 배열 형태 List ( 가장 대표적인 List 자식 클래스)
 	
 	// ArrayList(); 기본생성자 : 기본 크기가 10칸짜리 리스트 생성
+		
 	//						  -> 하지만 리스트는 크기가 늘었다 줄었다 하기에 큰 의미는 없다.
 	
 	// ArrayList(용랑) : 용량만큼의 리스트가 생성
@@ -75,6 +72,7 @@ public class StudentService {
 		System.out.println( studentList.get(2) );
 		System.out.println( studentList.get(3) );
 	
+		
 		// 제네릭스 (Generics)
 		// -> 컬렉션에 저장되는 객체 타입을 한가지로 제한 : < >
 	}
