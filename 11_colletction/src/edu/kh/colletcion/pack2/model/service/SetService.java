@@ -159,6 +159,8 @@ public class SetService {
 			System.out.println( list.get(i) );
 		}
 		
+		
+		
 		System.out.println("[ 향 상 된 f o r 문 ]");
 		
 		for( String snack : set ) {
@@ -227,7 +229,7 @@ public class SetService {
 		
 		// *****************************************************************//
 		//																	//
-		// Hash 라는 단어가 포함된 컬렉션 이용시에는						//
+		//			 Hash 라는 단어가 포함된 컬렉션 이용시에는						//
 		// 무조건 hashCode(), equals() 오버라이딩 필수적으로 진행해야 한다. //
 		//																	//
 		//******************************************************************//
