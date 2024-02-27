@@ -3,10 +3,7 @@ package ddd;
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Scanner;
-import java.util.Scanner;
-import java.util.Scanner;
-import java.util.Scanner;
+
 
 public class Test1 {
 
@@ -24,18 +21,19 @@ public class Test1 {
 		System.out.print("ip 입력 : ");
 		String ip = sc.next();
 		
-		boolean flag = false;
 		
-		for( IPInfo info : ipInfoList ) {
-			if( info.getIp().equals(ip) ) {
+		
+		for( int i = 0; i < ipInfoList.size(); i++ ) {
+			
+			if( ipInfoList.get(i).getIp().equals(ip) ){
 				
-				System.out.println("사용자" +info.getUser() );
+				System.out.println(ipInfoList.get(i) );
 				
-				 flag = true;
-				 break;
+				 
+				 return;
 			}
 		}
 		
-		if( flag != true) System.out.println("일치하는 ip 사용자가 없습니다.");
+		System.out.println("일치하는 ip 사용자가 없습니다.");
 	}
 }

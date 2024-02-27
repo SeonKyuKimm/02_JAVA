@@ -43,9 +43,12 @@ public class IPInfo {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return super.toString();
+		return "IPInfo [ ip = " + ip + ", user = " + user + " ] ";
 	}
+
+
+
+	
 	
 	
 }
