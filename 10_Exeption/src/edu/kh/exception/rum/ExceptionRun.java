@@ -9,7 +9,7 @@ public class ExceptionRun {
 		ExceptionSerivce service = new ExceptionSerivce();
 		//service.ex1();
 		//service.ex2();
-		//service.ex3();
+		service.ex3();
 		//service.ex4();
 	}
 }
