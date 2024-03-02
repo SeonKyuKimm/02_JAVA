@@ -9,7 +9,7 @@ public class StudentRun {
 		StudentService service = new StudentService();
 		
 		//service.ex();
-		service.displayMenu();
+		//service.displayMenu();
 	}
 
 }
