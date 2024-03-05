@@ -9,12 +9,12 @@ public class ByteRun {
 		ByteService service = new ByteService();
 		
 		
-		//service.fileByteOutput();
+		service.fileByteOutput();
 		//service.bufferedFileByteOutput();
 		//service.fileByteInput();
 		//service.fileByteInput2();
 		//service.bufferedFileByteInput();
-		service.fileCopy();
+		//service.fileCopy();
 	}
 	
 }
