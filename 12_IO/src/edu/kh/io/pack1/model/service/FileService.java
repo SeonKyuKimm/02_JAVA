@@ -125,11 +125,12 @@ public class FileService {
 			
 		}catch(IOException e) {
 			e.printStackTrace(); // 예외 정보 + 예외가 발생한 위치까지의 메서드 추적
-			
+			// 발생할 Exception 을 catch 조건란에 넣어두고 
+			// 발생한 Exception 이 무엇인지 알랴줌
 		}
 		
 	}
-	
+
 	
 	/**
 	 * File 클래스 제공 메서드 활용하기

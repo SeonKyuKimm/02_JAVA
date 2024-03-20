@@ -6,7 +6,7 @@ public class FreezerRun {
 
 	public static void main(String[] args) {
 		
-		System.out.println("----- 냉장고를 열어보니... -----");
+		System.out.println("----- FREEZER -----");
 		
 		// 프로젝트 흐름
 		//  Run <=> View <=> Service <=> DAO < => File

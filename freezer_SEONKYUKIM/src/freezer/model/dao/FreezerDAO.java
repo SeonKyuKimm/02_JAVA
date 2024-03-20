@@ -1,4 +1,4 @@
-package freezer.model.dao;
+                             package freezer.model.dao;
 
 import java.util.List;
 

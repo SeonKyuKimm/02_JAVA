@@ -288,6 +288,7 @@ public class ByteService {
 		
 		
 		try {
+			
 			fis = new FileInputStream("\\io_test\\20240222\\노래가사.txt");
 				
 			// 방법2 : 파일에 저장된 모든 byte 값을 다 읽어와
@@ -408,7 +409,7 @@ public class ByteService {
 		try {
 			
 			// 키보드 입력을 받기 위한 스트림 객체를 생성
-						br = new BufferedReader(new InputStreamReader(System.in) );
+			br = new BufferedReader(new InputStreamReader(System.in) );
 			
 			// 경로 입력 받기
 			System.out.print("파일 경로 입력 : ");
@@ -485,45 +486,9 @@ public class ByteService {
 			}
 			
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
+
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
