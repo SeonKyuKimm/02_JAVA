@@ -53,7 +53,6 @@ public class TodoListView {
     		
     		try {
     			
-    			
     			// 선택한 번호가 반환되어 input에 저장됨
     			input = selectMenu();
 

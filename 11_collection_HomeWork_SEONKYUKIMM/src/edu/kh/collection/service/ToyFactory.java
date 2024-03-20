@@ -104,11 +104,11 @@ public class ToyFactory {
 				
 				}catch(Exception e){
 				
-				System.out.println("알맞은 입력을 해랴..(경고)");
-				sc.nextLine();
+					System.out.println("알맞은 입력을 해랴..(경고)");
+					sc.nextLine();
 			
-				e.printStackTrace();
-				menuNum = -1;
+					e.printStackTrace();
+					menuNum = -1;
 				}
 			
 		}while (menuNum != 0);

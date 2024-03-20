@@ -5,10 +5,11 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
+import java.io.Serializable;
 
 import edu.kh.io.pack3.model.dto.Member;
 
-public class ObjectService {
+public class ObjectService implements Serializable {
 
 	/* ObjectInputStream / ObjectOutputStream
 	 * 
@@ -44,7 +45,7 @@ public class ObjectService {
 			Member member = new Member("member01", "pass01", "김회원", 30);
 			
 			// ObjectOutputStream을 이용해서 Member 객체를 출력하기
-			oos.writeObject(member);; // 객체 출력
+			oos.writeObject(member); // 객체 출력
 			
 			System.out.println("회원 출력 완료");
 			
@@ -116,17 +117,6 @@ public class ObjectService {
 				e.printStackTrace();
 			}
 		}
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 		
 	}
 

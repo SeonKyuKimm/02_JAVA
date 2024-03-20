@@ -10,7 +10,7 @@ public interface Calculator {
 	*	- 인터페이스 : 모두 추상메서드
 	*/
 	
-	// 필드 ( 묵시적으로 public static final == > 상수. 안써도 psf라는 뜻)
+	// 필드 ( 묵시적으로 public static final == > 상수. 안써도 public static final 이라는 뜻)
 	public static final double PI = 3.14;
 	static final int MAX_NUM = 100000;
 	public int MIN_NUM = -100000;

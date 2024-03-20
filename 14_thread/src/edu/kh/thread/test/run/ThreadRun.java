@@ -22,6 +22,7 @@ public class ThreadRun {
 		// Thread 클래스를 상속받아 구현하는 방법
 		ThreadWithClass thread1 = new ThreadWithClass();
 		
+		
 		// Runnable 인터페이스를 구현하는 방법
 		// ThreadWithRunnable thread2 = new ThreadWithRunnable();
 		Thread thread2 = new Thread(new ThreadWithRunnable() );

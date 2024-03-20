@@ -7,7 +7,7 @@ public class brenchRun {
 		brenchExample brenchEx = new brenchExample();
 		
 		//brenchEx.ex1();
-		//brenchEx.ex2();
+		brenchEx.ex2();
 		//brenchEx.ex3();
 		//brenchEx.ex4();
 		//brenchEx.RSPGame();
