@@ -47,7 +47,7 @@ public class brenchExample {
 			}
 			
 			str += input + "\n";
-			
+			//str = str+ input 
 		}
 		
 		System.out.println("=========================");

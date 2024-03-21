@@ -9,6 +9,6 @@ public class PracticeRun {
 	
 	HeroService hS = new HeroService();
 		
-		//hS.ex1();
+		hS.ex1();
 	}
 }
